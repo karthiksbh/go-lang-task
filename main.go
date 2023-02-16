@@ -10,5 +10,5 @@ func main() {
 	router := gin.New()
 	config.Connectdb()
 	routes.AddressRoute(router)
-	router.Run(":8080")
+	router.Run(":8081")
 }

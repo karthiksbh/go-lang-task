@@ -19,6 +19,14 @@ func Connectdb() {
 	}
 	fmt.Println("Database connection established")
 	db.AutoMigrate(&models.ProceedingAdd{})
+	db.AutoMigrate(&models.Property_vals{})
+	db.AutoMigrate(&models.AddressInformation{})
+	db.AutoMigrate(&models.Property_Information{})
+
+	db.AutoMigrate(&models.Party_vals{})
+	db.AutoMigrate(&models.Prosecution_Entry{})
+	db.AutoMigrate(&models.Proceeding_Entry{})
+
 	DB = db
 	fmt.Println("Database migration completed")
 }
