@@ -1,0 +1,75 @@
+{
+    "number": 90395896,
+    "type-code": "EXT",
+    "filing-date": 20230101,
+    "location-code": 845,
+    "day-in-location": 20230101,
+    "status-update-date": 20230101,
+    "status-code": 1,
+    "party-information": {
+        "party": [
+            {
+                "identifier": 1094674,
+                "role-code": "D",
+                "name": "Dailey, Candi",
+                "property-information": {
+                    "property": {
+                        "identifier": 1402223,
+                        "serial-number": 90395896,
+                        "mark-text": "BROWN BUTTER CAFE"
+                    }
+                },
+                "address-information": {
+                    "proceeding-address": {
+                        "identifier": 1977024,
+                        "type-code": "C",
+                        "name": "KYONA MCGHEE, ESQ",
+                        "orgname": "THE MCGHEE LAW FIRM, PLLC",
+                        "address-1": "653 SAGINAW UNIT 100",
+                        "city": "FLINT",
+                        "state": "MI",
+                        "country": "US",
+                        "postcode": 48502
+                    }
+                }
+            },
+            {
+                "identifier": 1094675,
+                "role-code": "P",
+                "name": "JaM Cellars Inc",
+                "property-information": "",
+                "address-information": {
+                    "proceeding-address": {
+                        "identifier": 1977026,
+                        "type-code": "C",
+                        "name": "J. SCOTT GERIEN",
+                        "orgname": "DICKENSON, PEATMAN &amp; FOGARTY",
+                        "address-1": "1500 FIRST STREET, SUITE 200",
+                        "city": "NAPA",
+                        "state": "CA",
+                        "country": "US",
+                        "postcode": 94559
+                    }
+                }
+            }
+        ]
+    },
+    "prosecution-history": {
+        "prosecution-entry": [
+            {
+                "identifier": 1,
+                "code": 1008,
+                "type-code": "T",
+                "date": 20230101,
+                "history-text": "FIRST 30-DAY REQUEST TO EXT TIME TO OPPOSE"
+            },
+            {
+                "identifier": 2,
+                "code": 1011,
+                "type-code": "T",
+                "date": 20230101,
+                "history-text": "EXT GRANTED"
+            }
+        ]
+    }
+}
