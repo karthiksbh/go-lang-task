@@ -3,7 +3,9 @@ package config
 import (
 	"fmt"
 	"log"
+	"os"
 
+	"github.com/joho/godotenv"
 	"github.com/karthiksbh/go-lang-task/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
@@ -12,11 +14,23 @@ import (
 var DB *gorm.DB
 
 func Connectdb() {
-	dsn := "host=localhost user=postgres password=postgres dbname=go-langtask port=5432 sslmode=disable TimeZone=Asia/Shanghai"
+	err := godotenv.Load()
+	if err != nil {
+		fmt.Println("Error in loading .env file")
+	}
+
+	dbUser := os.Getenv("PGUSER")
+	dbPassword := os.Getenv("PGPASSWORD")
+	dbName := os.Getenv("PGDATABASE")
+	dbHost := os.Getenv("PGHOST")
+	dbPort := os.Getenv("PGPORT")
+
+	dsn := fmt.Sprintf("host=%s port=%s user=%s password=%s dbname=%s sslmode=require", dbHost, dbPort, dbUser, dbPassword, dbName)
 	db, err := gorm.Open(postgres.Open(dsn), &gorm.Config{})
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	fmt.Println("Database connection established")
 	db.AutoMigrate(&models.ProceedingAdd{})
 	db.AutoMigrate(&models.Property_vals{})
