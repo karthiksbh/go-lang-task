@@ -1,6 +1,5 @@
 
-# ![image](https://user-images.githubusercontent.com/83284855/219548047-04913622-09f4-4098-9db8-c1958f00e007.png)
- Go Lang Task
+# 💻 Go Lang Task
 
 Shows an understanding of data, data types, and ability to develop features using GoLang on Scale. The task incorporates an understanding of XML and JSO2 type data formats as well as APIs using GoFiber. 
 
