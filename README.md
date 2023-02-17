@@ -1,5 +1,6 @@
 
-# Go Lang Task
+# ![image](https://user-images.githubusercontent.com/83284855/219548047-04913622-09f4-4098-9db8-c1958f00e007.png)
+ Go Lang Task
 
 Shows an understanding of data, data types, and ability to develop features using GoLang on Scale. The task incorporates an understanding of XML and JSO2 type data formats as well as APIs using GoFiber. 
 
@@ -85,7 +86,6 @@ This will start the application at `http://localhost:8081`
 * `DOCUMENTATED APIs` : Documented the APIs using Postman
 
 ### Part 4: 
-* `DOCKERIZE CODE`
 * `DEPLOY DATABASE` : Deployed the database on ElephantSQL
 * `DEPLOY CODE` : Code deployed on render. 
 
