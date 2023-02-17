@@ -96,6 +96,7 @@ This will start the application at `http://localhost:8081`
 
 - [x] Support basic REST APIs.
 - [x] Proper Database Schema
-- [x] Deployed Code and Database
-- [x] Dockerized Code
+- [x] Deployed Database on ElephantSQL
+- [x] Deployed Code on Render
 - [x] Proper Postman Documentation 
+
